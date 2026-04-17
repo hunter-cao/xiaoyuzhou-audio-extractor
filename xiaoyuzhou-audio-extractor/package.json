@@ -1,0 +1,13 @@
+{
+  "name": "xiaoyuzhou-audio-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zero-dependency Xiaoyuzhou episode audio extractor",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/extractor.test.js"
+  }
+}
