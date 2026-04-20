@@ -32,6 +32,8 @@ Success response:
 ```json
 {
   "ok": true,
+  "error_code": null,
+  "message": null,
   "episode_id": "69c89d89302f387cfd9a3cb9",
   "show_id": "66379a314b7d3b5d3b2d5b0d",
   "show_title": "毕不了业",

@@ -50,6 +50,8 @@ test("parseEpisodePage prefers __NEXT_DATA__ media source", () => {
   assert.equal(result.final_audio_url, "https://source.example.com/audio.mp3");
   assert.equal(result.backup_audio_url, "https://backup.example.com/audio.mp3");
   assert.equal(result.show_title, "测试播客");
+  assert.equal(result.error_code, null);
+  assert.equal(result.message, null);
   assert.equal(result.extraction_method, EXTRACTION_METHODS.NEXT_MEDIA_SOURCE);
 });
 

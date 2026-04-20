@@ -155,6 +155,8 @@ function parseEpisodePage(html, inputUrl) {
 
   return {
     ok: true,
+    error_code: null,
+    message: null,
     episode_id: episode?.eid || normalized.episodeId,
     show_id: episode?.pid || null,
     show_title: episode?.podcast?.title || null,
